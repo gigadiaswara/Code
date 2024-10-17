@@ -1,6 +1,6 @@
 const OurClient = () => {
   return (
-    <section id="ourClient" className="py-16 text-center bg-gray-100">
+    <section id="ourClient" className="h-screen flex items-center justify-center py-16 text-center bg-black">
       <h2 className="text-3xl font-bold mb-6">Our Clients</h2>
       <p className="text-lg max-w-3xl mx-auto">
         We have had the pleasure of working with some amazing clients.

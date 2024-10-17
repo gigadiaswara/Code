@@ -16,14 +16,14 @@ const Layout = ({ children }: { children: ReactNode }) => {
       <body>
         <div className="flex flex-col min-h-screen">
 
-          <header>
-            <nav className="navbar container mx-auto flex items-center justify-between">
-              <a href="#" onClick={() => scrollToSection("heroSection")} className="hover:text-blue-300">Home</a>
-              <a href="#" onClick={() => scrollToSection("aboutUs")} className="hover:text-blue-300">About Us</a>
-              <a href="#" onClick={() => scrollToSection("ourServices")} className="hover:text-blue-300">Services</a>
-              <a href="#" onClick={() => scrollToSection("ourTeam")} className="hover:text-blue-300">Team</a>
-            </nav>
-          </header>
+        <header>
+           <nav className="navbar container mx-auto flex items-center justify-center bg-white text-black py-4 shadow-lg">
+            <a href="#" onClick={() => scrollToSection("heroSection")} className="hover:text-blue-300 mx-4">Home</a>
+            <a href="#" onClick={() => scrollToSection("aboutUs")} className="hover:text-blue-300 mx-4">About Us</a>
+            <a href="#" onClick={() => scrollToSection("ourServices")} className="hover:text-blue-300 mx-4">Services</a>
+            <a href="#" onClick={() => scrollToSection("ourTeam")} className="hover:text-blue-300 mx-4">Team</a>
+          </nav>
+        </header>
 
           <main className="flex-1 container mx-auto p-8">{children}</main>
 
