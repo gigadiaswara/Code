@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="textElement">Javascript DOM</h1>
+        <button onclick="updateText()">Update Text</button>
+        <button onclick="addElement()">Update Text</button>
+    </div>
+    <script>
+        function updateText() {
+            const element = document.getElementById("textElement");
+            element.innerText = "Updated Javascript DOM"
+        }
+        function addElement() {
+            const element = document.getElementById("container");
+            const newElement = document.createElement("p"); //tag P ("p")
+            newElement.textContent = "this new Element"
+            element.appendChild(newElement); //appenchild menambahkan element baru dengan sistem push
+        }
+    </script>    
+</body>
+</html
