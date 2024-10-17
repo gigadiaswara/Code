@@ -1,8 +1,8 @@
 import HeroSection from '../views/components/heroSection';
 import CompanyOverview from '../views/components/companyOverview';
 import ServicesSection from '../views/components/servicesSection';
-import OurClient from '@/views/components/ourClient';
-import OurTeam from '@/views/components/ourTeam';
+import OurClient from '../views/components/ourClient';
+import OurTeam from '../views/components/ourTeam';
 
 const HomePage = () => {
   return (
@@ -11,7 +11,7 @@ const HomePage = () => {
       <CompanyOverview />
       <ServicesSection />
       <OurClient />
-      <OurTeam/>
+      <OurTeam />
     </>
   );
 };

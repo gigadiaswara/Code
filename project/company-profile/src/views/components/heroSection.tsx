@@ -1,12 +1,9 @@
-const HeroSection = () => {
+const CompanyOverview = () => {
   return (
-    <section id="heroSection" className="bg-blue-600 text-white text-center py-20">
-      <h1 className="text-4xl font-bold mb-4">Welcome to Ageka Konstruksi</h1>
-      <p className="text-lg max-w-2xl mx-auto">
-        We are committed to providing reliable building repair and maintenance services.
-      </p>
+    <section id="aboutUs" className="py-16 text-center bg-gray-100">
+      <h2 className="text-3xl font-bold mb-6">We are committed to providing reliable building repair and maintenance services.</h2>
     </section>
   );
 };
 
-export default HeroSection;
+export default CompanyOverview;

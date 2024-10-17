@@ -5,7 +5,6 @@ const OurTeam = () => {
       <p className="text-lg max-w-3xl mx-auto">
         Meet the dedicated team members of Ageka Konstruksi.
       </p>
-      Giga Diaswara
     </section>
   );
 };
