@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
+    --background: #ffffff;
     --foreground: #ededed;
   }
 }
@@ -26,16 +26,6 @@ body {
   }
 }
 
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000; 
-  background-color: rgb(164, 192, 73); 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+html {
+  scroll-behavior: smooth;
 }
-
-.main-content {
-  padding-top: 60px; 
-}
-

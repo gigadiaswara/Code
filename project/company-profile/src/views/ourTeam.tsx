@@ -27,9 +27,9 @@ const TeamPage = () => {
   }, []);
 
   return (
-    <main>
+    <main className="h-screen py-16 text-center text-black">
       <h1>Meet Our Team</h1>
-      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <section id="ourClient">
         {members.map((member, index) => (
           <div key={index} className="border p-4 text-center">
             <img src={member.picture} alt={member.name} className="rounded-full mx-auto mb-4" />

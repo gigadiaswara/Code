@@ -1,8 +1,8 @@
-import HeroSection from '../views/components/heroSection';
-import CompanyOverview from '../views/components/companyOverview';
-import ServicesSection from '../views/components/servicesSection';
-import OurClient from '../views/components/ourClient';
-import OurTeam from '../views/components/ourTeam';
+import HeroSection from '../views/heroSection';
+import CompanyOverview from '../views/companyOverview';
+import ServicesSection from '../views/servicesSection';
+import OurClient from '../views/ourClient';
+import OurTeam from '../views/ourTeam';
 
 const HomePage = () => {
   return (
