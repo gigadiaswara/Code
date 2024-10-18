@@ -1,9 +1,4 @@
 "use client";
-import HeroSection from '../views/heroSection';
-import CompanyOverview from '../views/companyOverview';
-import ServicesSection from '../views/servicesSection';
-import OurClient from '../views/ourClient';
-import OurTeam from '../views/ourTeam';
 import { ReactNode } from 'react';
 import './globals.css';
 
